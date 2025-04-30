@@ -1,0 +1,64 @@
+@import url("reset.css");
+@import url("root.css");
+@import url("font.css");
+@import url("typography.css");
+
+ul {
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+}
+
+/* flow */
+
+main section:not(.contact-section),
+main header {
+    margin-bottom: 160px;
+}
+
+/* layout width */
+
+main {
+    min-height: 100vh;
+}
+@media screen and (max-width: 768px) {
+    main > :first-child {
+        margin-top: 96px;
+    }
+}
+/* components */
+
+button.btn-light,
+button.btn-dark {
+    cursor: pointer;
+    outline: none;
+    border: 0;
+}
+
+.btn-light,
+.btn-dark {
+    font-size: 15px;
+    letter-spacing: 1px;
+    padding: 18px 24px;
+    border-radius: 8px;
+    text-transform: uppercase;
+    text-wrap: nowrap;
+
+    transition: 0.3s ease-in-out;
+}
+
+.btn-light {
+    color: var(--clr-primary-white);
+    background-color: var(--clr-primary-peach);
+}
+
+.btn-dark {
+    background-color: var(--clr-primary-white);
+    color: var(--clr-primary-black);
+}
+.btn-dark:hover,
+.btn-light:hover {
+    color: var(--clr-primary-white);
+    background-color: var(--clr-secondary-light-peach);
+}
