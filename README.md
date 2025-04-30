@@ -1,3 +1,7 @@
+# Live
+
+[https://designo-multi-page-website-l7z8rxzwg-jrgenwebs-projects.vercel.app/](https://designo-multi-page-website-l7z8rxzwg-jrgenwebs-projects.vercel.app/)
+
 # Nuxt Minimal Starter
 
 Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
